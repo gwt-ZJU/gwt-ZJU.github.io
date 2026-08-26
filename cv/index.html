@@ -1,0 +1,547 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> 简历 @ cv | Wentong Guo </title> <meta name="author" content="Wentong Guo"> <meta name="description" content="个人简历（Curriculum Vitae）。"> <meta name="keywords" content="academic-website, portfolio-website"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.36.4/dist/tocbot.css" integrity="sha256-zTN0r+0OKaIv2xqeNNIYxNk0pWJ6+IqPGc1iDgVzWF0=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%8E%93&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=3116ba77db9ee1581d05bb3e86fbf7f1"> <link rel="canonical" href="https://your-site-name.netlify.app/cv/"> <script src="/assets/js/theme.js?v=5286c3e4c334d0ecb8fc0c40ff4fa7ec"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <style>
+    html.lang-zh .lang-en { display: none !important; }
+    html.lang-en .lang-zh { display: none !important; }
+  </style> <script>
+    (function () {
+      var saved = null;
+      try { saved = localStorage.getItem('site-lang'); } catch (e) {}
+      document.documentElement.classList.add('lang-' + (saved === 'zh' ? 'zh' : 'en')); // 默认英文，访问过则记住上次选择
+      document.addEventListener('DOMContentLoaded', function () {
+        var btn = document.getElementById('lang-toggle');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+          var isEn = document.documentElement.classList.contains('lang-en');
+          document.documentElement.classList.remove('lang-zh', 'lang-en');
+          document.documentElement.classList.add(isEn ? 'lang-zh' : 'lang-en');
+          try { localStorage.setItem('site-lang', isEn ? 'zh' : 'en'); } catch (e) {}
+        });
+      });
+    })();
+  </script> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Wentong</span> Guo </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/"><span class="lang-zh">首页</span><span class="lang-en">about</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/"><span class="lang-zh">论文</span><span class="lang-en">publications</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/projects/"><span class="lang-zh">项目</span><span class="lang-en">projects</span> </a> </li> <li class="nav-item active"> <a class="nav-link" href="/cv/"><span class="lang-zh">简历</span><span class="lang-en">cv</span> <span class="sr-only">(current)</span> </a> </li> <li class="nav-item"> <button id="lang-toggle" type="button" title="Switch language / 切换语言" aria-label="Switch language"> <span class="nav-link"><i class="fa-solid fa-language"></i> <span class="lang-zh">EN</span><span class="lang-en">中</span></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="row"> <div class="col-sm-3"> <nav id="toc-sidebar" class="sticky-top toc toc-sidebar" aria-label="Table of contents" data-toc-collapse="expanded" data-toc-collapse-depth=""></nav> </div> <div class="col-sm-9"> <div class="post"> <header class="post-header"> <h1 class="post-title">简历 @ cv</h1> <p class="post-description">个人简历（Curriculum Vitae）。</p> </header> <article> <style>
+/* =========================================================
+   Academic CV — PDF-aligned researcher profile
+   ========================================================= */
+
+.cv-page {
+  --cv-border: color-mix(in srgb, var(--global-divider-color) 72%, transparent);
+  --cv-soft: color-mix(in srgb, var(--global-theme-color) 7%, transparent);
+  --cv-soft-strong: color-mix(in srgb, var(--global-theme-color) 12%, transparent);
+  --cv-muted: var(--global-text-color-light);
+  max-width: 1000px;
+  margin: 0 auto;
+  line-height: 1.65;
+}
+
+.post-title { display: none; }
+
+/* ---------- Hero ---------- */
+.cv-hero {
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 2.5rem;
+  padding: 2rem 2.15rem 1.85rem;
+  border: 1px solid var(--cv-border);
+  border-radius: 18px;
+  background:
+    linear-gradient(135deg, var(--cv-soft-strong), transparent 56%),
+    var(--global-card-bg-color, transparent);
+}
+
+.cv-hero::after {
+  content: "";
+  position: absolute;
+  width: 190px;
+  height: 190px;
+  right: -72px;
+  top: -95px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--global-theme-color) 9%, transparent);
+  pointer-events: none;
+}
+
+.cv-kicker {
+  margin-bottom: .48rem;
+  font-size: .72rem;
+  font-weight: 750;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--global-theme-color);
+}
+
+.cv-hero-title {
+  margin: 0 0 .6rem;
+  font-size: clamp(1.9rem, 4vw, 2.7rem);
+  line-height: 1.15;
+  font-weight: 760;
+  letter-spacing: -.025em;
+}
+
+.cv-hero-text {
+  max-width: 800px;
+  margin: 0;
+  font-size: .98rem;
+}
+
+.cv-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .55rem 1rem;
+  margin-top: 1rem;
+  font-size: .84rem;
+  color: var(--cv-muted);
+}
+
+.cv-contact a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.cv-contact a:hover { color: var(--global-theme-color); }
+
+.cv-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .7rem;
+  margin-top: 1.25rem;
+}
+
+.cv-button {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  padding: .44rem .82rem;
+  border: 1px solid var(--cv-border);
+  border-radius: 8px;
+  font-size: .82rem;
+  font-weight: 650;
+  text-decoration: none !important;
+  transition: transform .18s ease, border-color .18s ease, background .18s ease;
+}
+
+.cv-button:hover {
+  transform: translateY(-1px);
+  border-color: var(--global-theme-color);
+  background: var(--cv-soft);
+}
+
+/* ---------- Section ---------- */
+.cv-page h2 {
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+  margin: 3rem 0 1.15rem;
+  padding: 0;
+  border: 0;
+  font-size: 1.28rem;
+  line-height: 1.2;
+  font-weight: 730;
+  letter-spacing: -.012em;
+}
+
+.cv-page h2::before {
+  content: "";
+  width: 4px;
+  height: 1.05em;
+  border-radius: 99px;
+  background: var(--global-theme-color);
+}
+
+.cv-page h2::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--cv-border);
+}
+
+.cv-subhead {
+  margin: 1.55rem 0 .65rem;
+  font-size: .78rem;
+  font-weight: 760;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--cv-muted);
+}
+
+/* ---------- Education Timeline ---------- */
+.cv-timeline { position: relative; }
+
+.cv-timeline::before {
+  content: "";
+  position: absolute;
+  left: 132px;
+  top: .75rem;
+  bottom: .75rem;
+  width: 1px;
+  background: var(--cv-border);
+}
+
+.cv-timeline-item {
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr);
+  gap: 2.35rem;
+  position: relative;
+  padding: .8rem 0 1.25rem;
+}
+
+.cv-timeline-item::before {
+  content: "";
+  position: absolute;
+  left: 128px;
+  top: 1.17rem;
+  width: 9px;
+  height: 9px;
+  border: 2px solid var(--global-background-color);
+  border-radius: 50%;
+  background: var(--global-theme-color);
+  box-shadow: 0 0 0 1px var(--global-theme-color);
+}
+
+.cv-date {
+  padding-top: .05rem;
+  font-size: .78rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--global-theme-color);
+}
+
+.cv-entry { min-width: 0; }
+
+.cv-entry-title {
+  margin: 0 0 .16rem;
+  font-size: 1rem;
+  line-height: 1.42;
+  font-weight: 700;
+}
+
+.cv-entry-subtitle {
+  margin: 0 0 .3rem;
+  font-size: .88rem;
+  color: var(--cv-muted);
+}
+
+.cv-entry-note {
+  margin: 0;
+  font-size: .88rem;
+}
+
+/* ---------- Research Interests ---------- */
+.cv-pub-list {
+  display: grid;
+  gap: .58rem;
+}
+
+.cv-pub {
+  display: grid;
+  grid-template-columns: 78px minmax(0, 1fr);
+  gap: 1rem;
+  padding: .82rem .9rem;
+  border: 1px solid transparent;
+  border-radius: 11px;
+  transition: background .18s ease, border-color .18s ease, transform .18s ease;
+}
+
+.cv-pub:hover {
+  border-color: var(--cv-border);
+  background: var(--cv-soft);
+  transform: translateX(2px);
+}
+
+.cv-pub-year {
+  padding-top: .05rem;
+  font-size: .74rem;
+  font-weight: 750;
+  color: var(--global-theme-color);
+}
+
+.cv-pub-main {
+  min-width: 0;
+  font-size: .88rem;
+}
+
+.cv-pub-title {
+  display: block;
+  margin: .1rem 0 .18rem;
+  font-weight: 700;
+  line-height: 1.46;
+}
+
+.cv-pub-meta { color: var(--cv-muted); }
+.cv-me { font-weight: 750; }
+.cv-journal { font-style: italic; color: var(--global-text-color); }
+
+.cv-status {
+  display: inline-flex;
+  align-items: center;
+  margin-left: .32rem;
+  padding: .08rem .4rem;
+  border-radius: 999px;
+  font-size: .68rem;
+  font-weight: 700;
+  color: var(--global-theme-color);
+  background: var(--cv-soft-strong);
+}
+
+.cv-pub a { font-weight: 650; text-decoration: none; }
+
+/* ---------- Research Projects ---------- */
+.cv-projects {
+  display: grid;
+  gap: .85rem;
+}
+
+.cv-project {
+  display: grid;
+  grid-template-columns: 46px minmax(0, 1fr);
+  gap: .95rem;
+  padding: 1rem 1.05rem;
+  border: 1px solid var(--cv-border);
+  border-radius: 13px;
+  background: var(--global-card-bg-color, transparent);
+}
+
+.cv-project-no {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  margin-top: .1rem;
+  border-radius: 9px;
+  background: var(--cv-soft-strong);
+  color: var(--global-theme-color);
+  font-size: .76rem;
+  font-weight: 780;
+}
+
+.cv-project-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: .8rem;
+}
+
+.cv-project-title {
+  margin: 0;
+  font-size: .96rem;
+  line-height: 1.42;
+  font-weight: 720;
+}
+
+.cv-project-date {
+  flex: 0 0 auto;
+  font-size: .74rem;
+  font-weight: 700;
+  white-space: nowrap;
+  color: var(--global-theme-color);
+}
+
+.cv-project-supervisor {
+  margin-top: .25rem;
+  font-size: .8rem;
+  color: var(--cv-muted);
+}
+
+.cv-project-desc {
+  margin: .48rem 0 0;
+  font-size: .84rem;
+  line-height: 1.58;
+}
+
+/* ---------- Patents ---------- */
+.cv-patents {
+  display: grid;
+  gap: .66rem;
+}
+
+.cv-patent {
+  padding: .86rem .95rem;
+  border-left: 3px solid color-mix(in srgb, var(--global-theme-color) 70%, transparent);
+  border-radius: 0 9px 9px 0;
+  background: var(--cv-soft);
+  font-size: .86rem;
+}
+
+.cv-patent-id {
+  display: inline-block;
+  margin-top: .24rem;
+  font-size: .75rem;
+  color: var(--cv-muted);
+}
+
+/* ---------- Skills ---------- */
+.cv-skills {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .8rem;
+}
+
+.cv-skill {
+  padding: .96rem 1.02rem;
+  border: 1px solid var(--cv-border);
+  border-radius: 12px;
+  background: linear-gradient(145deg, var(--cv-soft), transparent 66%);
+}
+
+.cv-skill-label {
+  display: block;
+  margin-bottom: .38rem;
+  font-size: .88rem;
+  font-weight: 720;
+}
+
+.cv-skill-text {
+  font-size: .83rem;
+  line-height: 1.58;
+  color: var(--cv-muted);
+}
+
+/* ---------- Awards & Funding: grouped sections ---------- */
+.cv-group {
+  margin: .85rem 0 1.25rem;
+  border: 1px solid var(--cv-border);
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--global-card-bg-color, transparent);
+}
+
+.cv-group-title {
+  padding: .72rem .95rem;
+  border-bottom: 1px solid var(--cv-border);
+  background: var(--cv-soft);
+  font-size: .78rem;
+  font-weight: 760;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--global-theme-color);
+}
+
+.cv-group-content {
+  padding: .22rem .95rem;
+}
+
+.cv-group-row {
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  gap: .82rem;
+  align-items: start;
+  padding: .68rem 0;
+  border-bottom: 1px solid color-mix(in srgb, var(--cv-border) 65%, transparent);
+}
+
+.cv-group-row:last-child {
+  border-bottom: 0;
+}
+
+.cv-group-year {
+  padding-top: .02rem;
+  font-size: .75rem;
+  font-weight: 750;
+  font-variant-numeric: tabular-nums;
+  color: var(--global-theme-color);
+  white-space: nowrap;
+}
+
+.cv-group-text {
+  min-width: 0;
+  font-size: .86rem;
+  line-height: 1.52;
+}
+
+/* ---------- Left TOC ---------- */
+#toc-sidebar,
+.toc-sidebar {
+  position: sticky;
+  top: 88px;
+}
+
+#toc-sidebar .nav-link,
+.toc-sidebar .nav-link {
+  margin: .08rem 0;
+  padding: .32rem .7rem;
+  border-left: 2px solid transparent;
+  border-radius: 0 7px 7px 0;
+  font-size: .82rem;
+  line-height: 1.45;
+  color: var(--cv-muted);
+  transition: color .18s ease, border-color .18s ease, background .18s ease;
+}
+
+#toc-sidebar .nav-link:hover,
+.toc-sidebar .nav-link:hover {
+  color: var(--global-theme-color);
+  background: var(--cv-soft);
+}
+
+#toc-sidebar .nav-link.active,
+.toc-sidebar .nav-link.active {
+  color: var(--global-theme-color);
+  font-weight: 680;
+  border-left-color: var(--global-theme-color);
+  background: var(--cv-soft);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 800px) {
+  .cv-hero {
+    padding: 1.55rem 1.25rem;
+    border-radius: 14px;
+  }
+
+  .cv-group-row {
+    grid-template-columns: 52px minmax(0, 1fr);
+    gap: .62rem;
+  }
+
+  .cv-group-content {
+    padding-left: .8rem;
+    padding-right: .8rem;
+  }
+
+  .cv-timeline::before { left: 7px; }
+
+  .cv-timeline-item {
+    grid-template-columns: 1fr;
+    gap: .28rem;
+    padding-left: 1.7rem;
+  }
+
+  .cv-timeline-item::before {
+    left: 3px;
+    top: 1.12rem;
+  }
+
+  .cv-pub {
+    grid-template-columns: 58px minmax(0, 1fr);
+    gap: .7rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .cv-project {
+    grid-template-columns: 38px minmax(0, 1fr);
+    padding: .9rem .8rem;
+  }
+
+  .cv-project-head {
+    display: block;
+  }
+
+  .cv-project-date {
+    display: block;
+    margin-top: .25rem;
+    white-space: normal;
+  }
+}
+</style> <div class="cv-page"> <div class="cv-hero"> <div class="cv-kicker">CURRICULUM VITAE</div> <div class="cv-hero-title">Wentong Guo</div> <p class="cv-hero-text"><span class="lang-zh">我目前是浙江大学交通运输工程博士生，导师为金盛教授，并在加州大学伯克利分校开展访问研究。我的研究主要围绕城市交通、GeoAI 和城市计算展开。我比较关注如何利用街景、遥感、车辆轨迹以及其他多源城市数据，更好地理解城市交通和城市空间中的实际问题。目前的研究涉及交通安全、事故风险感知、城市可达性、低空交通、极端热环境以及城市基础设施智能分析等方向，也希望通过多模态学习和时空建模，把人工智能方法真正用于复杂城市系统的理解和优化。</span><span class="lang-en">I am a Ph.D. student in Transportation Engineering at Zhejiang University, advised by Prof. Sheng Jin, and currently a visiting scholar at UC Berkeley. My research centers on urban transportation, GeoAI, and urban computing. I am particularly interested in leveraging street view imagery, remote sensing, vehicle trajectories, and other multi-source urban data to better understand real-world problems in urban transportation and urban space. My current work covers traffic safety, accident risk perception, urban accessibility, urban air mobility, extreme heat environments, and intelligent analysis of urban infrastructure, aiming to bring AI methods into the understanding and optimization of complex urban systems through multimodal learning and spatiotemporal modeling.</span></p> <div class="cv-contact"> <span>✉ <a href="mailto:12512016@zju.edu.cn">12512016@zju.edu.cn</a></span> <span>☎ <a href="tel:+8614727849033">(+86) 147-2784-9033</a></span> </div> <div class="cv-actions"> <a class="cv-button" href="/assets/pdf/cv_cn.pdf" target="_blank">↗ <span class="lang-zh">查看简历 PDF</span><span class="lang-en">View CV (PDF)</span></a> </div> </div> <h2 id="education"> <span class="lang-zh">教育经历</span><span class="lang-en">Education</span> </h2> <div class="cv-timeline"> <div class="cv-timeline-item"> <div class="cv-date">2026.04 – 2027.04</div> <div class="cv-entry"> <div class="cv-entry-title"> <span class="lang-zh">加州大学伯克利分校 · 访问学者</span><span class="lang-en">University of California, Berkeley · Visiting Scholar</span> </div> <div class="cv-entry-subtitle"> <span class="lang-zh">美国加州伯克利 · 景观建筑与环境规划</span><span class="lang-en">Berkeley, CA, USA · Landscape Architecture &amp; Environmental Planning</span> </div> </div> </div> <div class="cv-timeline-item"> <div class="cv-date">2022.09 – 2027.06</div> <div class="cv-entry"> <div class="cv-entry-title"> <span class="lang-zh">浙江大学 · 交通运输工程 · 博士</span><span class="lang-en">Zhejiang University · PhD in Transportation Engineering</span> </div> <div class="cv-entry-subtitle"> <span class="lang-zh">中国杭州</span><span class="lang-en">Hangzhou, China</span> </div> </div> </div> <div class="cv-timeline-item"> <div class="cv-date">2018.09 – 2022.06</div> <div class="cv-entry"> <div class="cv-entry-title"> <span class="lang-zh">郑州大学 · 土木工程 · 学士</span><span class="lang-en">Zhengzhou University · BSc in Civil Engineering</span> </div> <div class="cv-entry-subtitle"> <span class="lang-zh">中国郑州</span><span class="lang-en">Zhengzhou, China</span> </div> </div> </div> </div> <h2 id="publications--preprints"> <span class="lang-zh">论文与预印本</span><span class="lang-en">Publications &amp; Preprints</span> </h2> <div class="cv-pub-list"> <div class="cv-pub"> <div class="cv-pub-year"> <span class="lang-zh">在投</span><span class="lang-en">Review</span> </div> <div class="cv-pub-main"> <span class="cv-me">Guo, W.</span>, Li X., Jin, S.<span class="cv-pub-title">Urban air mobility could enhance global accessibility and service equity.</span><span class="cv-journal">Nature Cities</span> <span class="cv-status">Under Review</span> </div> </div> <div class="cv-pub"> <div class="cv-pub-year"> <span class="lang-zh">在投</span><span class="lang-en">Review</span> </div> <div class="cv-pub-main"> <span class="cv-me">Guo, W.</span>, Xu W., Jin, S.<span class="cv-pub-title">SceneDGF: Scene-Conditioned Multimodal Learning for Urban Road Crash Risk Prediction.</span><span class="cv-journal">Accident Analysis &amp; Prevention</span> <span class="cv-status">Under Review</span> </div> </div> <div class="cv-pub"> <div class="cv-pub-year"> <span class="lang-zh">在投</span><span class="lang-en">Review</span> </div> <div class="cv-pub-main"> <span class="cv-me">Guo, W.</span>, Xu W., Jin, S.<span class="cv-pub-title">Analyzing the spatial concentration and inequality of potential heat burden in Chinese cities based on an activity–PET coupling framework.</span><span class="cv-journal">Sustainable Cities and Society</span> <span class="cv-status">Under Review</span> </div> </div> <div class="cv-pub"> <div class="cv-pub-year"> <span class="lang-zh">在投</span><span class="lang-en">Review</span> </div> <div class="cv-pub-main"> <span class="cv-me">Guo, W.</span>, Gao X., Jin, S.<span class="cv-pub-title">Heterogeneous Evidential Reconstruction and Uncertainty-Aware Temporal Forecasting for Charging Station Cold-Start.</span><span class="cv-journal">Applied Energy</span> <span class="cv-status">Under Review</span> </div> </div> <div class="cv-pub"> <div class="cv-pub-year"> <span class="lang-zh">在投</span><span class="lang-en">Review</span> </div> <div class="cv-pub-main"> <span class="cv-me">Guo, W.</span>, Du Z., Jin, S.<span class="cv-pub-title">AI-Driven Urban Transportation Safety Perception: A Cross-Scale Explainable Multimodal GeoAI Framework for Identifying Accident Hotspot Roadways.</span><span class="cv-journal">Engineering</span> <span class="cv-status">Under Review</span> </div> </div> <div class="cv-pub"> <div class="cv-pub-year">2026</div> <div class="cv-pub-main"> <span class="cv-me">Guo, W.</span>, Gao, X., Jin, S., Zhao, Z., Pan, Y., Yao, W.<span class="cv-pub-title">Deep Adaptive Fusion of Multimodal Satellite-Street View Imagery for Fine-Grained Intersection Risk Mapping.</span><span class="cv-pub-meta"><span class="cv-journal">IEEE Transactions on Circuits and Systems for Video Technology</span>, 36, 4106–4122. <a href="https://doi.org/10.1109/TCSVT.2025.3639015" target="_blank" rel="external nofollow noopener">DOI ↗</a></span> </div> </div> <div class="cv-pub"> <div class="cv-pub-year">2026</div> <div class="cv-pub-main"> <span class="cv-me">Guo, W.</span>, Xu, W., Yang, C., Zhao, Z., Gao, X., Yao, W., Jin, S.<span class="cv-pub-title">CRFPI-Net: context-aware risk feature perception and inference network for pixel-level urban traffic risk mapping.</span><span class="cv-pub-meta"><span class="cv-journal">Advanced Engineering Informatics</span>, 71, 104299. <a href="https://doi.org/10.1016/j.aei.2025.104299" target="_blank" rel="external nofollow noopener">DOI ↗</a></span> </div> </div> <div class="cv-pub"> <div class="cv-pub-year">2026</div> <div class="cv-pub-main">Dong, J., <span class="cv-me">Guo, W.*</span>, Wang, N., Liu, X., Zhao, G., Liu, H., Li, Z.<span class="cv-pub-title">Feature adaptive extraction and gated fusion networks for road crack segmentation.</span><span class="cv-pub-meta"><span class="cv-journal">Engineering Applications of Artificial Intelligence</span>, 168, 114012. <a href="https://doi.org/10.1016/j.engappai.2026.114012" target="_blank" rel="external nofollow noopener">DOI ↗</a></span> </div> </div> <div class="cv-pub"> <div class="cv-pub-year">2026</div> <div class="cv-pub-main">Xu, W., <span class="cv-me">Guo, W.</span>, Gao, K., Yang, C., Shangguan, Y., Yin, Y., Yao, W., Jin, S.<span class="cv-pub-title">Echelon utilization of retired electric bus batteries: Economic and environmental potential.</span><span class="cv-pub-meta"><span class="cv-journal">Transportation Research Part E: Logistics and Transportation Review</span>, 209, 104778. <a href="https://doi.org/10.1016/j.tre.2026.104778" target="_blank" rel="external nofollow noopener">DOI ↗</a></span> </div> </div> <div class="cv-pub"> <div class="cv-pub-year">2025</div> <div class="cv-pub-main"> <span class="cv-me">Guo W.</span>, Li X., Jin S., et al.<span class="cv-pub-title">Analysis of low altitude flyable airspace in major cities in China.</span><span class="cv-pub-meta"><span class="cv-journal">Journal of Transportation Engineering and Information</span>, 23(3), 60–72. <span class="lang-zh">（中文）</span><span class="lang-en">(in Chinese)</span></span> </div> </div> <div class="cv-pub"> <div class="cv-pub-year">2024</div> <div class="cv-pub-main"> <span class="cv-me">Guo, W.</span>, Jin, S., Li, Y., Jiang, Y.<span class="cv-pub-title">The dynamic-static dual-branch deep neural network for urban speeding hotspot identification using street view image data.</span><span class="cv-pub-meta"><span class="cv-journal">Accident Analysis &amp; Prevention</span>, 203, 107636. <a href="https://doi.org/10.1016/j.aap.2024.107636" target="_blank" rel="external nofollow noopener">DOI ↗</a></span> </div> </div> <div class="cv-pub"> <div class="cv-pub-year">2024</div> <div class="cv-pub-main"> <span class="cv-me">Guo, W.</span>, Xu, C., Jin, S.<span class="cv-pub-title">Fusion of satellite and street view data for urban traffic accident hotspot identification.</span><span class="cv-pub-meta"><span class="cv-journal">International Journal of Applied Earth Observation and Geoinformation</span>, 130, 103853. <a href="https://doi.org/10.1016/j.jag.2024.103853" target="_blank" rel="external nofollow noopener">DOI ↗</a></span> </div> </div> <div class="cv-pub"> <div class="cv-pub-year">2024</div> <div class="cv-pub-main">Jin S., <span class="cv-me">Guo W.</span>, Jiang Y., et al.<span class="cv-pub-title">The use of street-view images in urban traffic studies: review, analysis, and outlook.</span><span class="cv-pub-meta"><span class="cv-journal">Journal of Transportation Engineering and Information</span>, 22(2), 191–209. <span class="lang-zh">（中文）</span><span class="lang-en">(in Chinese)</span></span> </div> </div> <div class="cv-pub"> <div class="cv-pub-year">2025</div> <div class="cv-pub-main">Jing, J., <span class="cv-me">Guo, W.*</span>, Bai, C., Jin, S.<span class="cv-pub-title">Highway Accident Hotspot Identification Based on the Fusion of Remote Sensing Imagery and Traffic Flow Information.</span><span class="cv-pub-meta"><span class="cv-journal">Big Data and Cognitive Computing</span>, 9, 283. <a href="https://doi.org/10.3390/bdcc9110283" target="_blank" rel="external nofollow noopener">DOI ↗</a></span> </div> </div> </div> <h2 id="patents"> <span class="lang-zh">专利</span><span class="lang-en">Patents</span> </h2> <div class="cv-patents"> <div class="cv-patent"> <strong>Guo Wentong, Fang Hongyuan, Zhong Shan, Wang Niannan, Zhu Rui, Chen Jiajiang, Cao Shunlin, Zhang Gaoyi.</strong> A foreign object detection method for airport pavement diseases based on fusion of multiple convolutional neural networks.<br><span class="cv-patent-id">CN113111703B · 2023-07-28</span> </div> <div class="cv-patent"> <strong>Guo Wentong, Fang Hongyuan, Wang Niannian, Zhong Shan, Zhu Rui, Chen Jiajiang, Cao Shunlin, Zhang Gaoyi.</strong> A method and system for detecting foreign objects in airport pavement diseases based on deep learning.<br><span class="cv-patent-id">CN113111704B · 2023-05-12</span> </div> <div class="cv-patent"> <strong>Sun Yan, Guo Wentong, Jiang Xin, Liu Haoyan.</strong> An intelligent trash can.<br><span class="cv-patent-id">CN214494309U · 2021-10-26</span> </div> </div> <h2 id="research-experience"> <span class="lang-zh">科研经历</span><span class="lang-en">Research Experience</span> </h2> <div class="cv-projects"> <div class="cv-project"> <div class="cv-project-no">01</div> <div> <div class="cv-project-head"> <div class="cv-project-title">Heat-Resilient 15-Minute Cities: Global Assessment of Walking Accessibility and Thermal Burden</div> <div class="cv-project-date">2026.04 – <span class="lang-zh">至今</span><span class="lang-en">Now</span> </div> </div> <div class="cv-project-supervisor">Supervisor: Prof. Sheng Jin and Lu Liang</div> <p class="cv-project-desc"><span class="lang-zh">构建全球尺度的 15 分钟城市热暴露与可达性评估框架，耦合街道级热环境、人口分布与基本服务步行可达性；量化标准化步行路径上的累积热负担与不平等，并评估定向降温策略，以识别极端高温下最需要热干预的城市和街道路段。</span><span class="lang-en">Developing a global framework to evaluate heat exposure and accessibility within 15-minute cities by coupling street-level thermal environments, population distribution, and walking-based access to essential services. The study quantifies cumulative heat burden and inequality along standardized walking paths and evaluates targeted cooling strategies to identify cities and street segments where thermal interventions could most effectively improve equitable access under extreme heat.</span></p> </div> </div> <div class="cv-project"> <div class="cv-project-no">02</div> <div> <div class="cv-project-head"> <div class="cv-project-title">Global Urban Air Mobility Accessibility and Service Equity</div> <div class="cv-project-date">2025.12 – 2026.04</div> </div> <div class="cv-project-supervisor">Supervisor: Prof. Sheng Jin</div> <p class="cv-project-desc"><span class="lang-zh">构建全球尺度框架，评估城市空中交通（UAM）对 475 个城市可达性与交通公平的潜在改善。研究整合城市结构、人口、交通网络与垂直起降点部署情景，量化可达性和不平等变化，并分析 UAM 对服务不足地区出行时间负担及低空基础设施公平规划的作用。</span><span class="lang-en">Developed a global-scale framework to assess how Urban Air Mobility (UAM) could improve accessibility and transportation equity across 475 cities. By integrating urban structure, population, transport networks, and vertiport deployment scenarios, the study quantified accessibility and inequality changes, showing that UAM could reduce travel-time burdens in underserved areas and support more equitable low-altitude infrastructure planning.</span></p> </div> </div> <div class="cv-project"> <div class="cv-project-no">03</div> <div> <div class="cv-project-head"> <div class="cv-project-title">Scene-Conditioned Multimodal Learning for Urban Road Crash Risk Prediction</div> <div class="cv-project-date">2025.11 – 2026.03</div> </div> <div class="cv-project-supervisor">Supervisor: Prof. Sheng Jin</div> <p class="cv-project-desc"><span class="lang-zh">面向约 7,000 条城市道路，融合序列街景影像、逐小时交通流与路网拓扑，构建多模态道路碰撞风险预测框架。通过场景条件特征调制与自适应双图学习捕捉道路环境、交通动态和空间依赖之间的异质交互。</span><span class="lang-en">Developed a multimodal road crash risk prediction framework for approximately 7,000 urban road segments by integrating sequential street-view imagery, hourly traffic flow, and road-network topology. The framework combines scene-conditioned feature modulation with adaptive dual-graph learning to capture heterogeneous interactions between roadway environments, traffic dynamics, and spatial dependencies.</span></p> </div> </div> <div class="cv-project"> <div class="cv-project-no">04</div> <div> <div class="cv-project-head"> <div class="cv-project-title">Activity-Based Urban Heat Burden and Spatial Inequality</div> <div class="cv-project-date">2026.04 – 2026.07</div> </div> <div class="cv-project-supervisor">Supervisor: Prof. Sheng Jin and Lu Liang</div> <p class="cv-project-desc"><span class="lang-zh">通过整合 5 m 热环境与逐小时手机信令活动数据，构建活动–PET 耦合框架，评估 70 个中国城市的潜在热负担。提出互补的集中度与不平等指标，并结合空间分析与可解释机器学习揭示热负担的多尺度驱动因素和定向降温优先区域。</span><span class="lang-en">Developed an activity–PET coupling framework to assess potential heat burden across 70 Chinese cities by integrating 5-m thermal environments with hourly mobile-signaling-derived activity data. The study proposed complementary concentration and inequality indicators and applied spatial and interpretable machine-learning methods to reveal multiscale determinants of heat burden and identify priority areas for targeted urban cooling.</span></p> </div> </div> <div class="cv-project"> <div class="cv-project-no">05</div> <div> <div class="cv-project-head"> <div class="cv-project-title">Charging-Station Cold-Start Forecasting with Multimodal Urban Data</div> <div class="cv-project-date">2026.06 – 2026.08</div> </div> <div class="cv-project-supervisor">Supervisor: Prof. Sheng Jin</div> <p class="cv-project-desc"><span class="lang-zh">面向中国 8 个城市的电动汽车充电需求，融合地理关系、街景与遥感影像以及历史充电负荷，构建归纳式冷启动预测框架。利用概率图重建和不确定性感知时序预测推断新建充电站的潜在需求并提升未来负荷预测。</span><span class="lang-en">Developed an inductive cold-start forecasting framework for EV charging demand across eight Chinese cities by integrating geographic relationships, street-view and remote-sensing imagery, and historical charging loads. The framework combines probabilistic graph reconstruction with uncertainty-aware temporal forecasting to infer latent demand at newly deployed stations and improve future charging-load prediction.</span></p> </div> </div> <div class="cv-project"> <div class="cv-project-no">06</div> <div> <div class="cv-project-head"> <div class="cv-project-title">Cross-Scale Explainable Multimodal GeoAI for Urban Traffic Safety</div> <div class="cv-project-date">2026.02 – 2026.04</div> </div> <div class="cv-project-supervisor">Supervisor: Prof. Sheng Jin</div> <p class="cv-project-desc"><span class="lang-zh">面向 11,249 条道路，融合俯视影像、序列街景与城市功能环境，构建跨尺度多模态 GeoAI 事故热点识别框架；结合异质表征学习、自适应多模态融合与可信度验证的可解释性方法，揭示跨尺度城市环境如何共同塑造道路安全风险。</span><span class="lang-en">Developed a cross-scale multimodal GeoAI framework for accident-hotspot identification across 11,249 road segments by integrating overhead imagery, sequential street-view imagery, and urban functional context. The framework combines heterogeneous representation learning, adaptive multimodal fusion, and faithfulness-validated explainability to reveal how cross-scale urban environments jointly shape roadway safety risk.</span></p> </div> </div> <div class="cv-project"> <div class="cv-project-no">07</div> <div> <div class="cv-project-head"> <div class="cv-project-title">Pixel-Level Urban Traffic Risk Mapping with Multimodal GeoAI</div> <div class="cv-project-date">2025.04 – 2026.01</div> </div> <div class="cv-project-supervisor">Supervisor: Prof. Sheng Jin</div> <p class="cv-project-desc"><span class="lang-zh">开发 CRFPI-Net，融合街景、卫星影像、路网信息与更大尺度遥感上下文进行像素级城市交通风险制图；基于历史碰撞构建细粒度风险标签，并通过异质特征融合、动态特征相关建模和宏观上下文引导推断生成连续风险地图。</span><span class="lang-en">Developed CRFPI-Net for pixel-level urban traffic risk mapping by integrating street-view imagery, satellite imagery, road-network information, and broader remote-sensing context. The framework constructs fine-grained spatial risk labels from historical crashes and combines heterogeneous feature fusion, dynamic feature-correlation modeling, and macro-context-guided inference to generate continuous urban traffic-risk maps.</span></p> </div> </div> <div class="cv-project"> <div class="cv-project-no">08</div> <div> <div class="cv-project-head"> <div class="cv-project-title">Fine-Grained Intersection Risk Mapping through Satellite–Street-View Fusion</div> <div class="cv-project-date">2025.04 – 2025.08</div> </div> <div class="cv-project-supervisor">Supervisor: Prof. Sheng Jin</div> <p class="cv-project-desc"><span class="lang-zh">融合卫星影像和序列街景，构建细粒度城市交叉口风险制图的多模态深度学习框架；通过宏观/微观尺度特征学习与自适应异质融合捕捉跨模态环境交互，并验证其相较单模态方法的风险感知优势。</span><span class="lang-en">Developed a multimodal deep-learning framework for fine-grained urban intersection risk mapping by integrating satellite and sequential street-view imagery. The framework combines dedicated macro- and micro-scale feature learning with adaptive heterogeneous fusion to capture cross-modal environmental interactions, demonstrating improved traffic-risk perception over single-modality approaches.</span></p> </div> </div> <div class="cv-project"> <div class="cv-project-no">09</div> <div> <div class="cv-project-head"> <div class="cv-project-title">Developing a deep neural network comprising dynamic and static branches based on street view data to identify urban speeding hotspots and frequent speeding factors</div> <div class="cv-project-date">2025.02 – 2026.05</div> </div> <div class="cv-project-supervisor">Supervisor: Prof. Sheng Jin</div> <p class="cv-project-desc"><span class="lang-zh">根据 PDF 原文：设计两阶段 MaaS 套餐选择陈述偏好调查，并开发双分支动态–静态特征融合网络，以捕捉宏观空间上下文和序列街景中的微观变化；框架结合多尺度上下文聚合、自适应特征融合和基于 CAM 的视觉解释，并通过对比与消融实验验证模型性能。</span><span class="lang-en">Designed a two-stage stated-preference survey for MaaS bundle choices and developed a dual-branch dynamic–static feature fusion network to capture macro-scale spatial context and micro-scale changes from sequential street-view imagery. The framework integrates multi-scale contextual aggregation, adaptive feature fusion, and CAM-based visual interpretation, with comparative and ablation experiments validating model performance.</span></p> </div> </div> <div class="cv-project"> <div class="cv-project-no">10</div> <div> <div class="cv-project-head"> <div class="cv-project-title">Research on constructing a risk perception feature fusion network for pixel level inference of intersection traffic accident risk maps</div> <div class="cv-project-date">2023.05 – 2023.12</div> </div> <div class="cv-project-supervisor">Supervisor: Prof. Sheng Jin</div> <p class="cv-project-desc"><span class="lang-zh">融合街景、卫星影像、路网和宏观遥感上下文，开发端到端多模态交叉口像素级交通风险制图框架；通过异质特征融合、动态相关建模和宏观上下文引导捕捉互补的多尺度风险模式，并使用对比与消融实验验证有效性。</span><span class="lang-en">Developed an end-to-end multimodal framework for pixel-level traffic risk mapping at urban intersections by integrating street-view imagery, satellite imagery, road networks, and macro-scale remote-sensing context. The framework combines heterogeneous feature fusion, dynamic correlation modeling, and macro-context guidance to capture complementary multi-scale risk patterns, with comparative and ablation experiments validating its effectiveness.</span></p> </div> </div> <div class="cv-project"> <div class="cv-project-no">11</div> <div> <div class="cv-project-head"> <div class="cv-project-title">Research on Constructing a Multi-layer Feature Association Fusion Network for Urban Road Crack Disease Segmentation Method</div> <div class="cv-project-date">2024.01 – 2024.05</div> </div> <div class="cv-project-supervisor">Supervisor: Prof. Sheng Jin</div> <p class="cv-project-desc"><span class="lang-zh">针对复杂背景与不同工况下的城市道路裂缝分割，构建多层特征关联网络；结合 CNN–Transformer 双分支编码、全局–局部特征关联和轻量级 hybrid-MLP 解码器，以增强多尺度裂缝感知，尤其改善斑马线和低照度干扰场景。</span><span class="lang-en">Developed a multi-layer feature association network for urban road crack segmentation under complex backgrounds and varying working conditions. The framework integrates CNN–Transformer dual-branch encoding, global–local feature association, and a lightweight hybrid-MLP decoder to improve multi-scale crack perception, particularly under zebra-stripe and low-light interference.</span></p> </div> </div> </div> <h2 id="awards--honors"> <span class="lang-zh">荣誉与奖项</span><span class="lang-en">Awards &amp; Honors</span> </h2> <div class="cv-group"> <div class="cv-group-title"> <span class="lang-zh">奖学金</span><span class="lang-en">Scholarships</span> </div> <div class="cv-group-content"> <div class="cv-group-row"> <div class="cv-group-year">2025</div> <div class="cv-group-text"> <span class="lang-zh">研究生国家奖学金（浙江大学）</span><span class="lang-en">National Scholarship for Graduate Students, Zhejiang University</span> </div> </div> <div class="cv-group-row"> <div class="cv-group-year">2023</div> <div class="cv-group-text"> <span class="lang-zh">学业奖学金（浙江大学）</span><span class="lang-en">Academic Scholarship, Zhejiang University</span> </div> </div> <div class="cv-group-row"> <div class="cv-group-year">2021</div> <div class="cv-group-text"> <span class="lang-zh">一等奖学金（郑州大学）</span><span class="lang-en">The First Prize Scholarship of Zhengzhou University</span> </div> </div> <div class="cv-group-row"> <div class="cv-group-year">2020</div> <div class="cv-group-text"> <span class="lang-zh">国家奖学金</span><span class="lang-en">National Scholarship for Students</span> </div> </div> </div> </div> <div class="cv-group"> <div class="cv-group-title"> <span class="lang-zh">荣誉</span><span class="lang-en">Honors</span> </div> <div class="cv-group-content"> <div class="cv-group-row"> <div class="cv-group-year">2023</div> <div class="cv-group-text"> <span class="lang-zh">浙江大学优秀研究生</span><span class="lang-en">Excellent Graduate Student of Zhejiang University</span> </div> </div> <div class="cv-group-row"> <div class="cv-group-year">2022</div> <div class="cv-group-text"> <span class="lang-zh">河南省大学生“创新之星”</span><span class="lang-en">Winner of “Innovation Star” for College Students in Henan Province, China</span> </div> </div> <div class="cv-group-row"> <div class="cv-group-year">2021</div> <div class="cv-group-text"> <span class="lang-zh">郑州大学三好学生</span><span class="lang-en">Merit Student of Zhengzhou University</span> </div> </div> <div class="cv-group-row"> <div class="cv-group-year">2020</div> <div class="cv-group-text"> <span class="lang-zh">郑州大学三好学生</span><span class="lang-en">Merit Student of Zhengzhou University</span> </div> </div> </div> </div> <div class="cv-group"> <div class="cv-group-title"> <span class="lang-zh">竞赛</span><span class="lang-en">Competitions</span> </div> <div class="cv-group-content"> <div class="cv-group-row"> <div class="cv-group-year">2023</div> <div class="cv-group-text"> <span class="lang-zh">第十四届 Computational Transportation Science Symposium “CTS Cup” 交通管理技术竞赛 · 第一名</span><span class="lang-en">First place in the 14th Computational Transportation Science Symposium “CTS Cup” Transportation Management Technology Competition</span> </div> </div> <div class="cv-group-row"> <div class="cv-group-year">2022</div> <div class="cv-group-text"> <span class="lang-zh">第十七届“挑战杯”全国大学生课外学术科技作品竞赛 · 二等奖</span><span class="lang-en">Second place in the 17th Challenge Cup Chinese College Students Extracurricular Academic and Technological Works Competition</span> </div> </div> <div class="cv-group-row"> <div class="cv-group-year">2021</div> <div class="cv-group-text"> <span class="lang-zh">第十七届“挑战杯”全国大学生课外学术科技作品竞赛河南省 · 特等奖</span><span class="lang-en">The 17th “Challenge Cup” National College Students Extracurricular Academic and Technological Works Competition, Henan Province · Special Prize</span> </div> </div> <div class="cv-group-row"> <div class="cv-group-year">2021</div> <div class="cv-group-text"> <span class="lang-zh">全国大学生科技创新竞赛 · 一等奖</span><span class="lang-en">First place in the China University Science and Technology Innovation Competition</span> </div> </div> <div class="cv-group-row"> <div class="cv-group-year">2020</div> <div class="cv-group-text"> <span class="lang-zh">第二十二届中国机器人锦标赛 · 二等奖</span><span class="lang-en">Second place in the 22nd China Robotics Championship</span> </div> </div> </div> </div> <h2 id="project-funding"> <span class="lang-zh">项目与基金</span><span class="lang-en">Project Funding</span> </h2> <div class="cv-group"> <div class="cv-group-content"> <div class="cv-group-row"> <div class="cv-group-year">2023</div> <div class="cv-group-text"> <span class="lang-zh">浙江省教育厅一般科研项目（Y202353473）</span><span class="lang-en">General Scientific Research Project of Zhejiang Provincial Department of Education (Y202353473)</span> </div> </div> <div class="cv-group-row"> <div class="cv-group-year">2020</div> <div class="cv-group-text"> <span class="lang-zh">国家级大学生创新创业训练计划项目（202010459110）</span><span class="lang-en">China National College Student Innovation and Entrepreneurship Training Program Project (202010459110)</span> </div> </div> </div> </div> </div> </article> </div> </div> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © 2026 Wentong Guo. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://www.netlify.com/" target="_blank" rel="external nofollow noopener">Netlify</a>. <span class="lang-zh">最后更新于</span><span class="lang-en">Last updated</span> 2026-08-26. <span id="busuanzi_container_site_pv" style="margin-left: 0.5rem"> <span class="lang-zh">访问统计</span><span class="lang-en">Visits</span> <span id="busuanzi_value_site_pv"></span> 次 </span> <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script> </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script defer src="https://cdn.jsdelivr.net/npm/tocbot@4.36.4/dist/tocbot.min.js" integrity="sha256-lo/r+jQ81wWrxdIiiiEEd538z4+dTJTt+leOuAS7GCw=" crossorigin="anonymous"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> </body> </html>

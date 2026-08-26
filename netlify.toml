@@ -1,0 +1,13 @@
+# Netlify 部署配置
+# 文档：https://github.com/alshedivat/al-folio/blob/main/docs/INSTALL.md#deploy-on-netlify
+#
+# 在 Netlify 上使用：Add new site -> Import an existing project -> GitHub
+# 选择你的仓库后，本文件会自动生效，无需手动填写构建命令。
+
+[build]
+  command = "sed -i 's/^\\(baseurl: \\).*$/baseurl:/' _config.yml && bundle exec jekyll build"
+  publish = "_site"
+
+[build.environment]
+  JEKYLL_ENV = "production"
+  RUBY_VERSION = "3.3.5"
