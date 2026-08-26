@@ -18,7 +18,7 @@ lang: en # the language of your site content (for example: en, cn, zh-CN)
 icon: 🎓 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks
 
-url: https://eclectic-cendol-6271e6.netlify.app # 正式线上地址（Netlify）；换自定义域名时同步修改这里
+url: https://gwt-zju.github.io # 正式线上地址（GitHub Pages）
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
