@@ -1,0 +1,32 @@
+# 精选研究卡片轮播数据（中英双语：sub 用 lang-zh / lang-en 包裹）
+# 每个条目四个字段：
+#   title: 卡片标题（论文名保持英文）
+#   sub:   卡片副标题（双语）
+#   image: 图片路径（assets/img/papers/）
+#   url:   点击跳转链接（论文 DOI / GitHub / 平台官网）
+# 新增项目：复制一段、改内容即可，轮播自动扩展
+
+- title: "CRFPI-Net"
+  sub: "<span class='lang-zh'>像素级城市交通风险制图 · AEI 2026</span><span class='lang-en'>Pixel-level urban traffic risk mapping · AEI 2026</span>"
+  image: "assets/img/papers/crfpinet.jpg"
+  url: "https://doi.org/10.1016/j.aei.2025.104299"
+
+- title: "Deep Adaptive Fusion"
+  sub: "<span class='lang-zh'>多模态卫星-街景交叉口风险制图 · IEEE TCSVT 2026</span><span class='lang-en'>Multimodal satellite-street view intersection risk mapping · IEEE TCSVT 2026</span>"
+  image: "assets/img/papers/deepfusion.gif"
+  url: "https://doi.org/10.1109/TCSVT.2025.3639015"
+
+- title: "Dynamic-Static Dual-Branch"
+  sub: "<span class='lang-zh'>街景城市超速热点识别 · AAP 2024</span><span class='lang-en'>Street-view urban speeding hotspot identification · AAP 2024</span>"
+  image: "assets/img/papers/dualbranch.jpg"
+  url: "https://doi.org/10.1016/j.aap.2024.107636"
+
+- title: "Satellite-Street View Fusion"
+  sub: "<span class='lang-zh'>多源数据交通事故热点识别 · JAG 2024</span><span class='lang-en'>Multi-source traffic accident hotspot identification · JAG 2024</span>"
+  image: "assets/img/papers/fusion.jpg"
+  url: "https://doi.org/10.1016/j.jag.2024.103853"
+
+- title: "Crack Segmentation"
+  sub: "<span class='lang-zh'>道路裂缝分割的特征自适应门控融合网络 · EAAI 2026</span><span class='lang-en'>Feature adaptive gated fusion networks for road crack segmentation · EAAI 2026</span>"
+  image: "assets/img/papers/crackseg.jpg"
+  url: "https://doi.org/10.1016/j.engappai.2026.114012"

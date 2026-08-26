@@ -1,0 +1,120 @@
+# 简历数据文件：/cv/ 页面会自动渲染这里的内容
+# 按 JSON Resume 格式组织
+
+cv:
+  name: 郭文彤
+  label: 博士研究生 | 访问学者 | 城市地理空间人工智能研究者
+  email: TODO # 填写你的常用学术邮箱
+  location: Berkeley, CA, USA
+  image: ""
+
+  summary: >
+    浙江大学博士研究生、加州大学伯克利分校访问学者。
+    我的研究聚焦于地理空间人工智能（GeoAI）、城市交通与多模态城市计算的交叉领域，
+    重点关注如何融合大规模轨迹数据、遥感影像、街景数据与多源地理空间信息，
+    利用时空学习、图神经网络与智能决策方法理解、预测并优化复杂城市交通系统。
+    相关研究涉及交通安全、城市移动性、智能交通系统、城市韧性及可持续城市等方向。
+
+  social_networks:
+    - network: GitHub
+      username: TODO
+
+    - network: LinkedIn
+      username: TODO
+
+  sections:
+
+    Education:
+      - institution: 浙江大学
+        location: 杭州，中国
+        url: https://www.zju.edu.cn/
+        area: 土木工程 / 城市交通与地理空间智能
+        studyType: 博士
+        start_date: TODO
+        end_date: 至今
+        highlights:
+          - 研究方向包括地理空间人工智能、城市交通、多模态城市计算与时空建模
+          - 关注复杂城市系统的数据驱动理解、预测、模拟与优化
+          - "导师：TODO"
+
+      - institution: 加州大学伯克利分校
+        location: Berkeley, CA, USA
+        url: https://www.berkeley.edu/
+        area: 景观建筑与环境规划
+        studyType: 访问学者
+        start_date: 2026-04-01
+        end_date: 2027-04-01
+        highlights:
+          - 加州大学伯克利分校环境设计学院访问学者
+          - 开展地理空间人工智能、城市交通与数据驱动城市系统相关研究
+
+    Experience:
+      - company: 浙江大学
+        position: 博士研究生 / 科研人员
+        location: 杭州，中国
+        start_date: TODO
+        end_date: 至今
+        summary: >
+          开展地理空间人工智能、城市交通、时空学习与多模态城市数据交叉方向研究，
+          探索复杂城市交通系统的感知、预测、解释与优化方法。
+        highlights:
+          - 开展城市道路交通风险预测与安全路径优化研究
+          - 基于大规模车辆轨迹与道路网络数据研究城市交通时空动态
+          - 构建融合遥感、街景、移动轨迹与地理空间信息的多模态学习模型
+          - 研究城市活动空间与极端热环境下的人群热暴露及空间不平等
+          - 探索电动汽车充电需求预测及城市交通—能源系统耦合建模
+
+      - company: 加州大学伯克利分校
+        position: 访问学者
+        location: Berkeley, CA, USA
+        start_date: 2026-04-01
+        end_date: 2027-04-01
+        summary: >
+          在环境设计学院开展面向城市交通与复杂城市系统的地理空间人工智能研究，
+          探索多源城市数据与人工智能方法在城市理解和优化中的应用。
+        highlights:
+          - 研究多模态地理空间数据驱动的城市交通与移动性分析
+          - 探索空间人工智能在复杂城市系统理解与优化中的应用
+          - 开展交通系统、城市空间形态与人类活动之间的交叉研究
+
+    Skills:
+      - name: 编程与深度学习
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords: "Python, PyTorch, PyTorch Geometric, 深度学习, 机器学习"
+
+      - name: 地理空间人工智能与空间分析
+        level: Advanced
+        icon: fa-solid fa-earth-americas
+        keywords: "GeoAI, GIS, GeoPandas, OSMnx, 空间统计, 地理空间建模"
+
+      - name: 人工智能方法
+        level: Advanced
+        icon: fa-solid fa-brain
+        keywords: "图神经网络, 时空学习, 多模态学习, 可解释人工智能, 强化学习"
+
+      - name: 城市数据分析
+        level: Advanced
+        icon: fa-solid fa-city
+        keywords: "车辆轨迹, 移动数据, 遥感影像, 街景影像, 道路网络, 城市感知"
+
+      - name: 建模与优化
+        level: Advanced
+        icon: fa-solid fa-chart-line
+        keywords: "交通建模, 路网优化, 智能体建模, World Model, CVXPY"
+
+    Languages:
+      - name: 中文
+        summary: "母语"
+
+      - name: 英语
+        summary: "专业工作能力"
+
+    Interests:
+      - name: 主要研究兴趣
+        icon: fa-solid fa-tag
+        keywords: "城市交通, 地理空间人工智能, 智能交通系统, 交通安全, 城市移动性, 多模态城市计算, 时空学习, 图神经网络"
+
+      - name: 拓展研究兴趣
+        icon: fa-solid fa-layer-group
+        keywords: "城市气候, 人类移动性, 电动汽车充电, 城市能源系统, 城市韧性, 遥感"

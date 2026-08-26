@@ -1,0 +1,197 @@
+---
+---
+
+# ============================================================
+# 论文列表（来源：Google Scholar QwBqafUAAAAJ + ORCID + Crossref，2026-08 更新）
+# 已按需求排除会议论文（Journal of Physics: Conference Series 等 5 篇未收录）
+#
+# category 字段用于论文页的"全部 / 精选 / 合作"筛选：
+#   category = {featured}      精选（与首页"精选研究"轮播一致的 5 篇）
+#   category = {collaboration} 合作论文
+# selected = {true} 同时控制首页"代表性论文"区块
+#
+# 其他常用字段：
+#   bibtex_show = {true}    显示"BibTeX"按钮
+#   abbr        = {TCSVT}   期刊缩写徽章
+#   pdf / code / preview    论文PDF / 代码链接 / 缩略图
+# ============================================================
+
+# ---------- 精选 Featured（5 篇，与首页轮播一致） ----------
+
+@article{guo2026crfpinet,
+  abstract    = {Urban traffic accidents result in significant casualties and property losses. Conducting traffic risk mapping and inference for urban areas provides substantial benefits for accident prevention as well as future planning and governance. However, pixel-level fine-grained inference of urban traffic risk maps remains challenging, primarily due to the complex layout of urban road networks, the temporal variability of traffic dynamics, and the heterogeneity of spatial semantic information. In this study, we propose an end-to-end Context-Aware Risk Feature Perception and Inference Network (CRFPI-Net) based on multimodal data to achieve fine-grained inference of urban traffic risk maps. In CRFPI-Net, three separate branches are designed to capture risk features from satellite remote sensing imagery, spatiotemporal traffic sequences, and area-of-interest (AOI) semantic information. The risk-aware features from each branch are integrated using a gated fusion mechanism to eliminate redundant information, and the fused features are further processed by context-aware multi-scale correlation analysis to reduce the adverse impact of heterogeneous variations in risk regions on risk perception. Finally, CRFPI-Net produces pixel-level inference maps of urban traffic accident risk, enabling effective and low-cost guidance for traffic accident prevention. The proposed model is quantitatively evaluated on real-world datasets and achieves state-of-the-art performance. Ablation experiments further demonstrate the rationality and effectiveness of the designed modules.},
+  bibtex_show = {true},
+  selected    = {true},
+  category    = {featured},
+  abbr        = {AEI},
+  title       = {CRFPI-Net: context-aware risk feature perception and inference network for pixel-level urban traffic risk mapping},
+  author      = {Guo, Wentong and Xu, Wenzhu and Yang, Chengcheng and Zhao, Zhijian and Gao, Xi and Yao, WenBin and Jin, Sheng},
+  journal     = {Advanced Engineering Informatics},
+  volume      = {71},
+  pages       = {104299},
+  year        = {2026},
+  month       = apr,
+  publisher   = {Elsevier BV},
+  doi         = {10.1016/j.aei.2025.104299},
+  preview     = {crfpinet.jpg}
+}
+
+@article{guo2026deep,
+  abstract    = {The preponderance of traffic accidents takes place within urban intersection areas. It is crucial to extrapolate accident risk maps specifically for these locations to proactively mitigate and prevent future occurrences of traffic accidents. Nevertheless, inferring fine-grained intersection risk remains a challenging task, primarily due to the intricate structure of the road network, variability in scene information, and the stringent requirements for high-quality data. In this work, we propose an end-to-end Adaptive Risk-Feature Aware Fusion Network (ARFAF-Net) based on multimodal data to achieve fine-grained inference of traffic risk maps in intersection areas. Specifically, we introduce a Heterogenous Feature Adaptive Fusion Module to extract complementary features of risk from satellite imagery and streetscape data. The Dynamic Correlation Analysis Module is used to capture large-scale changes in risk in the region to improve multi-scale information perception. In addition, the Macro-Aware Guided Fusion Module is used to introduce macro-satellite image data features to enhance the accuracy of perceiving risks at the periphery of intersections. Ultimately, pixel-level extrapolation maps of intersection crash risk are generated, thereby offering more cost-effective and rational guidance for crash prevention. Both quantitative evaluation and qualitative analysis on real-world datasets demonstrate that the proposed ARFAF-Net achieves superior performance.},
+  bibtex_show = {true},
+  selected    = {true},
+  category    = {featured},
+  abbr        = {IEEE TCSVT},
+  title       = {Deep Adaptive Fusion of Multimodal Satellite-Street View Imagery for Fine-Grained Intersection Risk Mapping},
+  author      = {Guo, Wentong and Gao, Xi and Jin, Sheng and Zhao, Zhijian and Pan, Yue and Yao, Wenbin},
+  journal     = {IEEE Transactions on Circuits and Systems for Video Technology},
+  volume      = {36},
+  number      = {4},
+  pages       = {4106--4122},
+  year        = {2026},
+  month       = apr,
+  publisher   = {IEEE},
+  doi         = {10.1109/TCSVT.2025.3639015},
+  preview     = {deepfusion.gif}
+}
+
+@article{dong2026feature,
+  abstract    = {The timely detection of road cracks is essential for ensuring smooth and safe transportation. However, crack detection under zebra crossing interference has the problem of low accuracy and efficiency. In particular, the edge geometry information of crack imaging is complex: there are fluctuations in different directions and with different rules, which affect target feature capture and perception reconstruction. Crack edge information is lost. To address these issues, this paper proposes a deep learning model--Feature Adaptive Extraction and Gated Fusion Network (FAGFNet) for road crack segmentation. The model incorporates three key modules: (1) a Multiscale Feature Space Coupling (MFSC) is proposed to obtain features of cracks at various scales; (2) an innovative Feature Adaptive Analysis (FAA) is designed to enhance the edge geometry information capture capability of crack images; (3) A Contextual Gating Feature Attention (CGFA) is used to filter redundant features and finely fuse contextual information. Under zebra crossing interference and image edge geometry information, the complex crack segmentation accuracy is improved by the above three modules. We evaluated FAGFNet on its crack recognition capability for both asphalt and concrete pavements. Compared with 11 state-of-the-art deep learning models, the proposed FAGFNet demonstrates superior performance across various complex scenarios. The proposed model achieves the Intersection over Union (IoU) of 89.57 % and F1-score of 92.17 % for crack segmentation. In addition, the segmentation efficiency of FAGFNet reaches 21.84 Frames Per Second (FPS), which can realize real-time segmentation. The above experimental results show that the proposed FAGFNet model has better robustness and generalization ability in the field of road crack segmentation.},
+  bibtex_show = {true},
+  selected    = {true},
+  category    = {featured},
+  abbr        = {EAAI},
+  title       = {Feature adaptive extraction and gated fusion networks for road crack segmentation},
+  author      = {Dong, Jiaxiu and Guo, Wentong and Wang, Niannian and Liu, Xuemei and Zhao, Guodong and Liu, Hui and Li, Zhen},
+  journal     = {Engineering Applications of Artificial Intelligence},
+  volume      = {168},
+  pages       = {114012},
+  year        = {2026},
+  month       = mar,
+  publisher   = {Elsevier BV},
+  doi         = {10.1016/j.engappai.2026.114012},
+  preview     = {crackseg.jpg}
+}
+
+@article{guo2024dynamic,
+  abstract    = {The visual information regarding the road environment can influence drivers' perception and judgment, often resulting in frequent speeding incidents. Identifying speeding hotspots in cities can prevent potential speeding incidents, thereby improving traffic safety levels. We propose the Dual-Branch Contextual Dynamic-Static Feature Fusion Network based on static panoramic images and dynamically changing sequence data, aiming to capture global features in the macro scene of the area and dynamically changing information in the micro view for a more accurate urban speeding hotspot area identification. For the static branch, we propose the Multi-scale Contextual Feature Aggregation Network for learning global spatial contextual association information. In the dynamic branch, we construct the Multi-view Dynamic Feature Fusion Network to capture the dynamically changing features of a scene from a continuous sequence of street view images. Additionally, we designed the Dynamic-Static Feature Correlation Fusion Structure to correlate and fuse dynamic and static features. The experimental results show that the model has good performance, and the overall recognition accuracy reaches 99.4%. The ablation experiments show that the recognition effect after the fusion of dynamic and static features is better than that of static and dynamic branches. The proposed model also shows better performance than other deep learning models. In addition, we combine image processing methods and different Class Activation Mapping (CAM) methods to extract speeding frequency visual features from the model perception results. The results show that more accurate speeding frequency features can be obtained by using LayerCAM and GradCAM-Plus for static global scenes and dynamic local sequences, respectively. In the static global scene, the speeding frequency features are mainly concentrated on the buildings and green layout on both sides of the road, while in the dynamic scene, the speeding frequency features shift with the scene changes and are mainly concentrated on the dynamically changing transition areas of greenery, roads, and surrounding buildings.},
+  bibtex_show = {true},
+  selected    = {true},
+  category    = {featured},
+  abbr        = {AAP},
+  title       = {The dynamic-static dual-branch deep neural network for urban speeding hotspot identification using street view image data},
+  author      = {Guo, Wentong and Jin*, Sheng and Li, Yiding and Jiang, Yang},
+  journal     = {Accident Analysis \& Prevention},
+  volume      = {203},
+  pages       = {107636},
+  year        = {2024},
+  month       = aug,
+  publisher   = {Elsevier BV},
+  doi         = {10.1016/j.aap.2024.107636},
+  preview     = {dualbranch.jpg}
+}
+
+@article{guo2024fusion,
+  abstract    = {As the number of vehicles and the volume of traffic swell in urban centers, cities have experienced a concomitant increase in traffic accidents. Proactively identifying accident-prone hotspots in urban environments holds the promise of preventing traffic mishaps, thereby curtailing the incidence of accidents and reducing property damage. This research introduces the Two-Branch Contextual Feature-Guided Converged Network (TCFGC-Net) utilizing multimodal satellite and street view data. Designed to extract global structural features from satellite imagery and dynamic continuous features from street view imagery, the model aims to improve the accuracy of detecting urban accident hotspots. For the satellite imagery branch, we propose the Contextual Feature Coupled Convolutional Neural Network (Trans-CFCCNN) designed to extract global spatial features and discern feature correlations across adjacent regions. For the street view imagery branch, we develop the Sequential Feature Recurrent Attention Network (SFRAN) to assimilate and integrate dynamic scene features captured from successive street view images. We designed the Multi-Branch Feature Adaptive Fusion Structure (MBFAF) to aggregate different branch features for accurate identification of accident hotspots. Experimental results show that the model performs well, with an overall accuracy of 93.7 %. Ablation studies confirm that relative to standalone street view and satellite branch analyses, implementing multimodal fusion enhances the model's accuracy by 12.05 % and 17.86 %, respectively. The innovative fusion structure proposed herein garners a 4.22 % increase in model accuracy, outpacing conventional feature concatenation techniques. Furthermore, the model outperforms existing deep learning models in terms of overall efficacy. Additionally, to showcase the efficacy of the proposed model structure, we utilize Class Activation Maps (CAM) to provide visual interpretability for the model. These results suggest that the dual-branch fusion model effectively decreases false alarm occurrences and directs the model's focus toward regions more pertinent to accident hotspots.},
+  bibtex_show = {true},
+  selected    = {true},
+  category    = {featured},
+  abbr        = {JAG},
+  title       = {Fusion of satellite and street view data for urban traffic accident hotspot identification},
+  author      = {Guo, Wentong and Xu, Cheng and Jin*, Sheng},
+  journal     = {International Journal of Applied Earth Observation and Geoinformation},
+  volume      = {130},
+  pages       = {103853},
+  year        = {2024},
+  month       = jun,
+  publisher   = {Elsevier BV},
+  doi         = {10.1016/j.jag.2024.103853},
+  preview     = {fusion.jpg}
+}
+
+# ---------- 合作 Collaboration ----------
+
+@article{bai2025hybrid,
+  preview     = {trajpred.jpg},
+  bibtex_show = {true},
+  category    = {collaboration},
+  abbr        = {TR-C},
+  title       = {Hybrid data-model driven trajectory prediction on highways: Integrating anticipatory interaction awareness and personalized driving preferences},
+  author      = {Bai, Congcong and Gao, Xi and Chen, Mengdi and Guo, Wentong and Rong, Donglei and Yang, Chengcheng and Jin, Sheng},
+  journal     = {Transportation Research Part C: Emerging Technologies},
+  volume      = {180},
+  pages       = {105351},
+  year        = {2025},
+  month       = nov,
+  publisher   = {Elsevier BV},
+  doi         = {10.1016/j.trc.2025.105351}
+}
+
+@article{jing2025highway,
+  abstract    = {Traffic safety is a critical issue in highway operation management, where accurate identification of accident hotspots enables proactive risk prevention and facility optimization. Traditional methods relying on historical statistics often fail to capture macro-level environmental patterns and micro-level dynamic variations. To address this challenge, we propose a Dual-Branch Feature Adaptive Gated Fusion Network (DFAGF-Net) that integrates satellite remote sensing imagery with traffic flow time-series data. The framework consists of three components: the Global Contextual Aggregation Network (GCA-Net) for capturing macro spatial layouts from remote sensing imagery, a Sequential Gated Recurrent Unit Attention Network (Seq-GRUAttNet) for modeling dynamic traffic flow with temporal attention, and a Hybrid Feature Adaptive Module (HFA-Module) for adaptive cross-modal feature fusion. },
+  preview     = {highwayhotspot.svg},
+  bibtex_show = {true},
+  category    = {collaboration},
+  abbr        = {BDCC},
+  title       = {Highway Accident Hotspot Identification Based on the Fusion of Remote Sensing Imagery and Traffic Flow Information},
+  author      = {Jing, Jun and Guo, Wentong and Bai, Congcong and Jin, Sheng},
+  journal     = {Big Data and Cognitive Computing},
+  volume      = {9},
+  number      = {11},
+  pages       = {283},
+  year        = {2025},
+  month       = nov,
+  publisher   = {MDPI AG},
+  doi         = {10.3390/bdcc9110283}
+}
+
+@article{bai2025multisource,
+  abstract    = {Real-time and short-term driving risk assessment is crucial for advancing Advanced Driver Assistance Systems (ADAS) by enabling proactive warning strategies and enhancing driving safety. However, the complexity and dynamic nature of real-world driving environments, coupled with diverse data sources, challenge traditional risk assessment methods in capturing the coupled effects of various factors. To address these limitations, this study proposes a novel framework for driving risk assessment based on multi-source data, integrating both unsupervised learning and deep learning techniques. The proposed Multi-source Temporal Attention Fusion Network (MTAFN) integrates three core components: a Feature Selection Network to dynamically identify critical input features, a Static Feature Encoder to fuse static and dynamic data through information flow propagation, and a Temporal Attention Fusion Network employing a modified multi-head attention mechanism to capture long-term temporal dependencies. The experimental results demonstrate that the proposed model outperforms other models on the performance, showing excellent transferability across different scenarios, along with further improvements in both performance and efficiency. Furthermore, the model exhibits comprehensive interpretability in multi-source feature fusion, temporal dependencies, and scenario transferring. Its robustness across different risk labelling strategies has also been validated. This study highlights MTAFN’s effectiveness in leveraging multi-source data for driving risk assessment and its potential to advance proactive warning strategies, offering a robust solution for enhancing safety of ADAS in complex environments.},
+  bibtex_show = {true},
+  category    = {collaboration},
+  abbr        = {ESWA},
+  title       = {Multi-source temporal attention fusion network (MTAFN) for driving risk assessment based on naturalistic driving data},
+  author      = {Bai, Congcong and Yang, Chengcheng and Rong, Donglei and Guo, Wentong and Gao, Xi and Yao, Wenbin and Jin, Sheng},
+  journal     = {Expert Systems with Applications},
+  volume      = {279},
+  pages       = {127502},
+  year        = {2025},
+  month       = jun,
+  publisher   = {Elsevier BV},
+  doi         = {10.1016/j.eswa.2025.127502},
+  preview     = {mtafn.jpg}
+}
+
+@article{xu2026echelon,
+  abstract    = {The rapid deployment of electric bus fleets introduces dual pressures on grid stability and sustainable battery retirement. Harnessing the residual capacity of retired batteries through echelon utilization presents a strategic pathway toward circular economy and carbon neutrality. This study presents an integrated multi-model framework combining vehicle behavior simulation, battery degradation modeling, retirement flow forecasting, and benefits analysis to evaluate the echelon utilization potential and economic-environmental benefits of deploying electric bus second-life batteries (EBSLBs) in energy storage scenarios. A case study of Wenzhou, China, demonstrates that over 1.9 GWh of EBSLBs capacity will become available annually by 2035. Leveraging these energy storage resources to store curtailed renewable energy and manage peak power loads can reduce per capita carbon emissions from urban residential electricity consumption by 10%, and generate annual economic revenues exceeding ¥600 million, thus enhancing urban energy resilience and supporting low-carbon development.},
+  preview     = {echelon.jpg},
+  bibtex_show = {true},
+  category    = {collaboration},
+  abbr        = {TR-E},
+  title       = {Echelon utilization of retired electric bus batteries: Economic and environmental potential},
+  author      = {Xu, Wenzhu and Guo, Wentong and Gao, Kun and Yang, Chengcheng and Shangguan, Yidan and Yin, Yexing and Yao, Wenbin and Jin, Sheng},
+  journal     = {Transportation Research Part E: Logistics and Transportation Review},
+  volume      = {209},
+  pages       = {104778},
+  year        = {2026},
+  month       = may,
+  publisher   = {Elsevier BV},
+  doi         = {10.1016/j.tre.2026.104778}
+}
+
+@article{dong2024mfafnet,
+  abstract    = {The regular and timely detection and segmentation of cracks in asphalt pavements is very important for road evaluation. However, certain problems remain to be solved, such as the difficulty of crack detection under interference from zebra stripes and dark light. A novel intelligent crack segmentation method based on a multi-layer feature association fusion network (MFAFNet) is therefore proposed in this study. Firstly, a fusion convolution with a Transformer called a feature coupling encoder (FC-Encoder) is developed in MFAFNet to enhance the model's global feature awareness and ability to capture local details. Secondly, a two-branch feature association module (TFBA-module) is proposed to obtain strong correlation information for global and local features. Next, a hybrid MLP architecture for lightweight feature decoder (H-MLP Decoder) is constructed to achieve feature recombination of the multi-level fusion information. The accuracy of crack segmentation under interference from zebra stripes and dark light is improved through the use of these three modules. Our model is compared with some well-known existing segmentation networks such as U-Net, DeepLabv3+, PSPNet, HRNet and SegFormer, and the segmentation accuracy, F1-score and IoU of the proposed MFAFNet are found to be 94.39 %, 93.26 % and 89.46 %, respectively. In addition, the segmentation efficiency reaches 21.87FPS. Our experimental results show that the proposed MFAFNet yields more effective performance in the field of asphalt pavement crack segmentation than the alternatives.},
+  preview     = {mfafnet.jpg},
+  bibtex_show = {true},
+  category    = {collaboration},
+  abbr        = {AEI},
+  title       = {MFAFNet: An innovative crack intelligent segmentation method based on multi-layer feature association fusion network},
+  author      = {Dong, Jiaxiu and Wang*, Niannian and Fang, Hongyuan and Guo*, Wentong and Li, Bin and Zhai, Kejie},
+  journal     = {Advanced Engineering Informatics},
+  volume      = {62},
+  pages       = {102584},
+  year        = {2024},
+  month       = oct,
+  publisher   = {Elsevier BV},
+  doi         = {10.1016/j.aei.2024.102584}
+}
