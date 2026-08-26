@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://eclectic-cendol-6271e6.netlify.app/sitemap.xml
+Sitemap: https://gwt-zju.github.io/sitemap.xml
