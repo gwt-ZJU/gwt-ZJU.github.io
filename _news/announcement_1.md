@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<span class="lang-zh">个人网站正式上线 🎉</span><span class="lang-en">Personal website launched 🎉</span>
+Personal website launched 🎉
